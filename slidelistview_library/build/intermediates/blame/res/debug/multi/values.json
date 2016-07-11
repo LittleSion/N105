@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/Users/zhangmin/AndroidStudioProjects/N105/slidelistview_library/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 556,
+                    "endColumn": 48,
+                    "endOffset": 600
+                },
+                "from": {
+                    "file": "/Users/zhangmin/AndroidStudioProjects/N105/slidelistview_library/src/main/res/values/slidelistview_attrs.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 720,
+                        "endColumn": 48,
+                        "endOffset": 764
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 605,
+                    "endColumn": 52,
+                    "endOffset": 653
+                },
+                "from": {
+                    "file": "/Users/zhangmin/AndroidStudioProjects/N105/slidelistview_library/src/main/res/values/slidelistview_attrs.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 770,
+                        "endColumn": 52,
+                        "endOffset": 818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 658,
+                    "endColumn": 53,
+                    "endOffset": 707
+                },
+                "from": {
+                    "file": "/Users/zhangmin/AndroidStudioProjects/N105/slidelistview_library/src/main/res/values/slidelistview_attrs.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 824,
+                        "endColumn": 53,
+                        "endOffset": 873
+                    }
+                }
+            }
+        ]
+    }
+]

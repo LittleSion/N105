@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="common_title">#F3F3F3</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="timer_bg">#00000000</color>
+    <color name="whitesmoke">#F5F5F5</color>
+    <color name="whitesmoke_press">#e9e6e6</color>
+    <color name="gray_font">#818181</color>
+    <color name="devide_line">#53c625</color>
+    <color name="gray1">#ff888888</color>
+    <color name="green_btn">#ff00b22d</color>
+    <color name="bg_list_01">#ffffff</color>
+    <color name="bg_list_03">#8e8e93</color>
+    <color name="tv_01">#322a2d </color>
+    <color name="tv_02">#c3b8b8 </color>
+    <color name="red">#ffed0000</color>
+    <color name="blue">#ff42a0f7</color>
+    <color name="light_gray">#aac6c6c6</color>
+</resources>

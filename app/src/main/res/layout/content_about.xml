@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="asiabright.n105.UI.AboutActivity"
+    tools:showIn="@layout/activity_about">
+
+
+    <include
+        android:id="@+id/title_dynamic_item_about"
+        layout="@layout/main_title" />
+
+    <ImageView
+        android:id="@+id/iv_dynamic_item_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_dynamic_item_about"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:src="@mipmap/splash_app" />
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_dynamic_item_about"
+        android:layout_marginTop="10.0dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/version_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:gravity="center"
+            android:text="V 1.0.1"
+            android:textColor="@color/light_gray"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:text="@string/a4_about_02"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/linearLayout1"
+        android:gravity="center"
+
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="23dip"
+                    android:background="@mipmap/line" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/a4_iv_tm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@mipmap/icon_tianmao" />
+
+                <Button
+                    android:id="@+id/dynamic_news_tmbtn"
+                    android:layout_width="90dip"
+                    android:layout_height="40dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@drawable/commit_selector_btn"
+                    android:text="@string/a4_about_03"
+                    android:textColor="@color/blue" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="23dip"
+                android:background="@mipmap/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/a4_iv_jd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@mipmap/icon_jingdong" />
+
+                <Button
+                    android:id="@+id/dynamic_news_jdbtn"
+                    android:layout_width="90dip"
+                    android:layout_height="40dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@drawable/commit_selector_btn"
+                    android:text="@string/a4_about_03"
+                    android:textColor="@color/blue" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="23dip"
+                android:background="@mipmap/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="3.0dip"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/a4_iv_sn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@mipmap/icon_suning" />
+
+                <Button
+                    android:id="@+id/dynamic_news_snbtn"
+                    android:layout_width="90dip"
+                    android:layout_height="40dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:background="@drawable/commit_selector_btn"
+                    android:text="@string/a4_about_03"
+                    android:textColor="@color/blue" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

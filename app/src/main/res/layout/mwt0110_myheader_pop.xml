@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+
+
+        <RelativeLayout
+            android:id="@+id/header_pop_button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/pop_mutilusergroup_bg" >
+
+            <ImageView
+                android:id="@+id/header_pop_button1_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@mipmap/conversation_options_multichat" />
+
+            <TextView
+                android:id="@+id/header_pop_button1_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header_pop_button1_image"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/gray_font" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/devide_line" />
+
+        <RelativeLayout
+            android:id="@+id/header_pop_button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/pop_mutilusergroup_bg" >
+
+            <ImageView
+                android:id="@+id/header_pop_button2_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@mipmap/conversation_options_share_photo" />
+
+            <TextView
+                android:id="@+id/header_pop_button2_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header_pop_button2_image"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/gray_font" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/devide_line" />
+
+        <RelativeLayout
+            android:id="@+id/header_pop_button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/pop_mutilusergroup_bg" >
+
+            <ImageView
+                android:id="@+id/header_pop_button3_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@mipmap/conversation_options_camera" />
+
+            <TextView
+                android:id="@+id/header_pop_button3_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header_pop_button3_image"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/gray_font" />
+        </RelativeLayout>
+    </LinearLayout>

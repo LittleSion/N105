@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".UI.Fragment.N105Second">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnone"
+        android:layout_marginTop="45dp"
+        android:src="@mipmap/button_off"
+        android:background="#00000000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/devone"
+        android:background="@drawable/corledit_shape"
+        android:padding="5dip"
+        android:textSize="15dip"
+        android:singleLine="true"
+        android:hint="第一路开关"
+        android:layout_below="@+id/btnone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btntwo"
+        android:src="@mipmap/button_off"
+        android:background="#00000000"
+        android:layout_above="@+id/devtwo"
+        android:layout_alignStart="@+id/btnone"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/devtwo"
+        android:background="@drawable/corledit_shape"
+        android:padding="5dip"
+        android:textSize="15dip"
+        android:singleLine="true"
+        android:hint="第二路开关"
+        android:layout_marginBottom="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/devone"
+        android:gravity="center"/>
+
+</RelativeLayout>

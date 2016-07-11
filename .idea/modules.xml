@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/N105.iml" filepath="$PROJECT_DIR$/N105.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blelibrary/blelibrary.iml" filepath="$PROJECT_DIR$/blelibrary/blelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oldninedroid_library/oldninedroid_library.iml" filepath="$PROJECT_DIR$/oldninedroid_library/oldninedroid_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidelistview_library/slidelistview_library.iml" filepath="$PROJECT_DIR$/slidelistview_library/slidelistview_library.iml" />
+    </modules>
+  </component>
+</project>

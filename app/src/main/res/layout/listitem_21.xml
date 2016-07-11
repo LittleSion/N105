@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/back"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#ffcccccc"-->
+        <!--android:tag="back" >-->
+        <!--<LinearLayout-->
+            <!--android:id="@+id/linearLayout1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:orientation="horizontal" >-->
+            <!--<Button-->
+                <!--android:id="@+id/delete"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="#FF0000"-->
+                <!--android:text="@string/lt_61_01"-->
+                <!--android:textColor="#fff" />-->
+        <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/list_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:tag="list_item" >
+
+        <RelativeLayout
+            android:id="@+id/rl_img"
+            android:layout_width="85.0dip"
+            android:layout_height="85.0dip"
+            android:layout_marginLeft="10.0dip" >
+
+            <ImageView
+                android:id="@+id/list_item21_iv1"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:gravity="center_horizontal"
+                android:src="@mipmap/meizi" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rl_img"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/list_item21_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70.0dip"
+                android:layout_marginTop="15.0dip"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxEms="10"
+                android:singleLine="true"
+                android:text="卧室插座"
+                android:textColor="#ff444444"
+                android:textSize="17.0sp" />
+
+            <TextView
+                android:id="@+id/list_item21_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="70.0dip"
+                android:ellipsize="end"
+                android:hint="xxxxxxxxx"
+                android:maxEms="10"
+                android:singleLine="true"
+                android:textColor="#332828"
+                android:textSize="14.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/tr_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginTop="5.0dip"
+                >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/item21_01"
+                        android:textColor="@color/gray1"
+                        android:textSize="15.0sp" />
+
+                    <TextView
+                        android:id="@+id/list_item21_tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2.0dip"
+                        android:ellipsize="middle"
+                        android:singleLine="true"
+                        android:text="无信号"
+                        android:textColor="@color/gray1"
+                        android:textSize="12.0sp" />
+                </TableRow>
+
+     
+
+                <TextView
+                    android:id="@+id/list_item21_tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   
+  
+                    android:text="uCF280"
+                    android:textColor="@color/gray1"
+                    android:textSize="15.0sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/delete"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#FFFF0000"-->
+        <!--android:gravity="center"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:paddingRight="20dp"-->
+        <!--android:text="删除" />-->
+
+
+
+</RelativeLayout>
